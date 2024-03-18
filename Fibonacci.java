@@ -17,5 +17,6 @@ public class Fibonacci{
         Fibonacci F = new Fibonacci(n);
         for(int i=0;i<n;i++)
             System.out.println(F.eval(i));
+        rc.close();
     }
 }

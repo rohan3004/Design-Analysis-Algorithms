@@ -19,5 +19,6 @@ public class QuickSortSeq {
         QuickSortSeq Q = new QuickSortSeq(n);
         for(int i=0;i<n;i++)
             System.out.printf("%.5f\n",Q.eval(i));
+        rc.close();
     }
 }
