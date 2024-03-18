@@ -1,5 +1,5 @@
 public class Quick_Sort_Performance {
-    static double euler=0.577215665;
+    static final double euler=0.577215665;
     public static void main(String[] args)
     {
         int maxN=Integer.parseInt(args[0]);
